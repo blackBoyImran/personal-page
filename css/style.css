@@ -1,3 +1,77 @@
-h1{
-    color: red;
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+section {
+  height: 500px;
+  margin-bottom: 100px;
+}
+.header {
+  background-image: url(../images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 95%;
+}
+
+.hire {
+  color: white;
+  background-image: linear-gradient(45deg, #ff9874, #ff6c4e);
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.name-style {
+  font-size: 40px;
+}
+.drem {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.pragrap {
+  font-size: 20px;
+  text-align: justify;
+}
+#single-box {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 70%;
+  margin-top: 5%;
+}
+.left-border {
+  border-left: 5px solid;
+  border-image: linear-gradient(#ff9c77, #ff6649);
+  border-image-slice: 1;
+}
+.right-border {
+  border-left: 5px solid;
+  border-image: linear-gradient(#0015ff, #00eaff);
+  border-image-slice: 1;
+}
+.newPra {
+  padding-left: 10px 10px;
+  line-height: 1.5;
+  word-spacing: 1.5;
+  letter-spacing: 1.5s;
+}
+#center {
+  background-image: url(../images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#footer {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
